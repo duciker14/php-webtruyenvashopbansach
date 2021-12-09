@@ -1,0 +1,30 @@
+@keyframes doimauchu {
+    0% {
+        color: rgb(60, 255, 0);
+    }
+    20% {
+        color: rgb(236, 27, 19);
+    }
+    40% {
+        color: rgb(229, 16, 248);
+    }
+    60% {
+        color: rgb(196, 238, 11);
+    }
+    80% {
+        color: rgb(221, 219, 235);
+    }
+}
+
+.chunhapnhay{
+    animation: doimauchu ease 1s infinite;
+}
+.chunhapnhaynhe{
+    animation: doimauchu ease 3s infinite;
+}
+.tieude{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
